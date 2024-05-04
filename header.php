@@ -34,7 +34,7 @@
         <link rel="stylesheet" type="text/css" href="css/style.css" />
         <link rel="stylesheet" type="text/css" href="css/color.css" />
         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-
+        
         <!-- Revolution Style -->
         <link rel="stylesheet" type="text/css" href="css/revolution/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
         <link rel="stylesheet" type="text/css" href="css/revolution/settings.css" />
@@ -51,7 +51,9 @@
         </style>
    
     </head>
+
     <body itemscope>
+      
         <div class="pg-lyut1">
            
             <header class="fr-stky style2">

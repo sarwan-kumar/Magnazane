@@ -114,6 +114,27 @@ body {
     font-family: lato;
     letter-spacing: .3px;
 }
+
+.float{
+    margin-bottom: 20px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 84px;
+    right: 21px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
 .wow {visibility: hidden;}
 h1,h2,h3,h4,h5,h6 {
     color: #343333;
