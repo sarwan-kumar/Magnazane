@@ -56,7 +56,7 @@ include('header.php');
                         while ($row = mysqli_fetch_assoc($result)) {
                             echo '<li data-transition="random" data-slotamount="default" data-hideafterloop="0" data-easein="default" data-easeout="default" data-masterspeed="5000" data-rotate="0" data-saveperformance="off" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-title="">';
                             echo '<img src="admin/slider_img/' . $row["img"] . '" itemprop="image" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="45" class="rev-slidebg" data-no-retina />';
-                            echo '<h2 class="tp-caption tp-resizeme rs-parallaxlevel-3" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-width="auto" data-height="auto" data-transform_idle="o:1;" data-transform_in="x:0;y:top;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="font-size:40px;margin:0;letter-spacing:-.3px;font-weight:700;color:#ffffff;">Mgnazane</h2>';
+                            echo '<h2 class="tp-caption tp-resizeme rs-parallaxlevel-3" data-x="center" data-hoffset="0" data-y="center" data-voffset="-50" data-width="auto" data-height="auto" data-transform_idle="o:1;" data-transform_in="x:0;y:top;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0.01;s:3000;e:Power3.easeOut;" data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-mask_in="x:[-100%];y:0;s:inherit;e:inherit;" data-start="500" data-splitin="chars" data-splitout="none" data-responsive_offset="on" data-elementdelay="0.05" style="font-size:40px;margin:0;letter-spacing:-.3px;font-weight:700;color:#ffffff;">MagnaZane</h2>';
                             echo '</li>';
 
                         }
@@ -174,7 +174,7 @@ include('header.php');
                             </div>
                             <div class="col-md-6 col-sm-12 col-lg-6">
                                 <div class="vdo-dta">
-                                    <h2 itemprop="headline">Why Choose Magnazane?</h2>
+                                    <h2 itemprop="headline">Why Choose <?= $firm_data['fname']?> ?</h2>
                                     <div class="vd-bx">
                                         <i class="fa fa-database"></i>
                                         <div class="vd-bx-inf">
@@ -211,7 +211,7 @@ include('header.php');
             <div class="row">
                 <div class="col-md-12 col-sm-12 col-lg-12">
                     <div class="title1 txt-cntr">
-                        <h3 itemprop="headline">Magnazane Portfolio</h3>
+                        <h3 itemprop="headline"><?= $firm_data['fname'] ?> Portfolio</h3>
 
                     </div>
                     <div class="port-fltrs">

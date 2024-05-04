@@ -13,7 +13,7 @@
                                                         <h1 itemprop="headline"><a href="index.php" title="" itemprop="url">
                                                             <img src="admin/logo/<?php echo $firm_data['flogo']; ?>" alt="<?php echo $firm_data['fname']; ?>" itemprop="image" /></a></h1>
                                                     </div>
-                                                   <h1 style="color: white;">MagnaZane</h1>
+                                                   <h1 style="color: white;"><?php echo $firm_data['fname']; ?></h1>
                                                     
                                                 </div><!-- About Widget -->
                                             </div><!-- Widget -->
