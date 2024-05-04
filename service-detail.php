@@ -113,7 +113,7 @@
 
 
  <section>
-     <div class="gp ls-gp3 drk-bg2">
+     <div class="gp ls-gp3 drk-bg2 d-none">
          <div class="container">
              <div class="row">
                  <div class="col-md-12 col-sm-12 col-lg-12">
