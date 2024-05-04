@@ -51,7 +51,13 @@
                         </div>
                     </div><!-- Footer Main -->
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=+91{{ $firm->whatsapp }}&text=Welcome to Fashion Camp pvt ltd ( A UNIT OF JANAK RAJ JAIN)." class="float" target="_blank">
+                <?php
+                $phone_number = preg_replace('/[^0-9]/', '', $firm_data['fphone']); // Remove non-numeric characters
+                $phone_number_with_country_code = '+91' . $phone_number; // Assuming the country code is +91 for India
+                ?>
+                <a href="https://api.whatsapp.com/send?phone=<?=$phone_number_with_country_code; ?>&text=Welcome to MagnaZane (Custom Architecture Design of your Choice)." class="float" target="_blank">
+
+
 <i class="fa fa-whatsapp my-float"></i>
 </a>
             </div>
