@@ -202,11 +202,11 @@
                                 
                                 </textarea>
                              </div>
-                             <div class="col-12" style="display:block;">
+                             <div class="col-12" style="display:none;">
                                  <label for="inputAddress2" class="form-label">Terms & Condition</label>
                                  <textarea class="form-control" id="terms" name="fterms" placeholder="Terms ..." rows="3"><?php echo $firm['terms']; ?></textarea>
                              </div>
-                             <div class="col-12" style="display:block;">
+                             <div class="col-12" style="display:none;">
                                  <label for="inputAddress2" class="form-label">Privacy Policy</label>
                                  <textarea class="form-control" id="privacy" name="privacy" placeholder="Privacy ..." rows="3"><?php echo $firm['privacy']; ?></textarea>
                              </div>

@@ -2,7 +2,7 @@
     session_start();
    if(!isset($_SESSION['EINIX_ADMIN'])){
      header("Location: index.php"); }
-	//echo $_SESSION['EINIX_ADMIN']; die;
+
 	date_default_timezone_set('Asia/Kolkata');
     include("config.php");
      $queryst = "SELECT * from firm_detail where id='1'"; 
